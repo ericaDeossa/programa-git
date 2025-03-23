@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>clinica de la salud mental</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="login-container">
+    <img src="imagenes/LOGO CLINICA.png" alt="clinica" >
+    
+    <h1>Iniciar Sesión</h1>
+    <form class="login-form"">
+      <div class="login-container">
+        <label for="imail">Correo Electrónico</label>
+        <input type="email" id="email" name="email" placeholder="imail" required>
+      
+      <div class="login-container">
+        <label for="password">Contraseña</label>
+        
+        <input type="password" id="password" name="password" placeholder=" contraseña" required>
+      <button type="submit">entrar</button>
+    </form>
+  </div> 
+</body>
+</style>
+</head>
+<body>
+    <h2></h2><header>Salud Mental - Guía Informativa</header></h2>
+    <nav>
+       
+    <div class="container">
+        <div class="seccion" id="home">
+            <h2>Home</h2>
+            <p>cuenta con toda la información necesaria sobre como sobrellevar el día a día, información sobre cómo manejar el estrés, la depresión, ansiedad, como sobrellevar el duelo. también cuenta con podcast, videos de hipnosis, charlas motivacionales, meditación entre otras.
+ .</p>
+            <img src="imagenes/home.jpg" alt="home">
+           
+        </div> <center></center>
+        <button type="submit">entrar</button>
+        
+        <div class="seccion" id="perfil">
+            <h2>Perfil del Usuario</h2>
+           
+            <img src="imagenes/perfil de usuario.png" alt="perfil de usuario">
+            <p>Aquí podrás ver y editar tu información personal.</p>
+            <p>Adelaida nauzan deossa</p>
+            <p>1040748896</p>
+            <p>30 años </p>
+            <p>3156627900</p>
+            <p>erica1830@hotmail.com </p>
+            <button type="submit">entrar</button>
+            
+        </div>
+
+        <div class="seccion" id="bitacora">
+            <h2>Bitácora</h2>
+            <p>escoge la emocion con la que te reprentas hoy.</p>
+            <img src="imagenes/emociones.jpg" alt="emociones">
+            <button type="submit">entrar</button>
+            <form id="moodForm">
+              <label for="mood">Selecciona tu estado de ánimo:</label>
+              <select id="mood">
+                  <option value="Feliz">😊 Feliz</option>
+                  <option value="Triste">😢 Triste</option>
+                  <option value="Ansioso">😟 Ansioso</option>
+                  <option value="Relajado">😌 Relajado</option>
+                  <option value="Enojado">😠 Enojado</option>
+              </select>
+              
+             
+              <textarea id="notes" placeholder="Escribe tus pensamientos"></textarea>
+              
+              <button type="submit">Guardar</button>
+              <h2>Historial de Estados de Ánimo</h2>
+    <ul id="moodList"></ul>
+
+    <script src="script.js"></script>
+
+    <button type="submit">Guardar</button>
+
+          </form>
+
+        </div>
+
+        <div class="seccion" id="grupo">
+            <h2>Grupo de Socialización</h2>
+            <p>Conéctate con otras personas para compartir experiencias y apoyo mutuo.</p>
+            <button type="submit">entrar</button>
+        </div>
+
+        <div class="seccion" id="cita">
+            <h2>Solicitar Cita</h2>
+            <p>Agenda tu cita con tu especialista de confianza.</p>
+            <button type="submit">entrar</button>
+        </div>
+    </div>
+</body>
+</html>
+
+
